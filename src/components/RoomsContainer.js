@@ -9,7 +9,6 @@ if(loading)
     return <Loading />
 return (
     <div>
-        hello from room container
         <RoomFilter rooms={rooms}/>
         <RoomsList rooms={sortedRooms} />
     </div>
